@@ -4,7 +4,7 @@
   "private": true,
   "description": "avicenna-admin",
   "scripts": {
-    "build": "strapi build",
+    "build": "strapi build && strapi start",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
